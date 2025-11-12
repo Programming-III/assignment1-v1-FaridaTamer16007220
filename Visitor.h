@@ -12,4 +12,8 @@ class Visitor{
   
   public:
   void displayInfo();
+
 }
+
+};
+#endif

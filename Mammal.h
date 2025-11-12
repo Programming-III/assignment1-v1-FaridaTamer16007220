@@ -10,6 +10,7 @@ using namespace std;
   class Mammal:public Animal{
     
     string furColor;
+};
 
 
 

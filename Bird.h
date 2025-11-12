@@ -8,7 +8,7 @@ using namespace std;
 class Bird:public Animal{
     float wingSpan;
     
-  } 
+  };
 
 
 

@@ -49,6 +49,15 @@ void Enclosure:: displayAnimals(){
   
 }
 
+Enclosure(){
+this-> capacity=" ";
+this->currentCount=0;
+*animal=nullptr;
+}
+
+
+
+
 void Visitor::displayInfo(){
 cout<<"The visitor name is : "<<visitorName<<endl;
 cout<<"Number of tickets bought: "<<ticketsBought<<endl;

@@ -14,6 +14,8 @@ bool isHungry;
 
 
 public:
+Animal();
+Animal(string name,int age,bool isHungry);
 void display();
 void feed();
 };
